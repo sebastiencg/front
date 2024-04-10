@@ -6,7 +6,7 @@ function OrderList() {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        let url = "https://127.0.0.1:8000";
+        let url = "https://exam2.miantsebastien.com";
 
         // Effectuer une requête GET vers votre endpoint API
         const response = await fetch(url+'/api/order/total');

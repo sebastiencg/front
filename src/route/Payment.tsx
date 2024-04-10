@@ -22,7 +22,7 @@ const PaymentPage = () => {
         }));
         console.log(payload);
 
-        const response = await axios.post('https://127.0.0.1:8000/api/order/total',{
+        const response = await axios.post('https://exam2.miantsebastien.com/api/order/total',{
           "id":payload
         } , {
           headers: {'Authorization': `Bearer ${token}`}

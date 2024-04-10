@@ -17,7 +17,7 @@ function ProductAddCart() {
   async function fetchData() {
     const token = await Jwt();
     try {
-      const response = await axios.get<Product>(`https://127.0.0.1:8000/api/product/${id}`, {
+      const response = await axios.get<Product>(`https://exam2.miantsebastien.com/api/product/${id}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 

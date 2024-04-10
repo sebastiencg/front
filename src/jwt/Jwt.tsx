@@ -4,7 +4,7 @@ async function Jwt() {
   const tokenString = localStorage.getItem('token');
   const token = tokenString ? JSON.parse(tokenString) : null;
 
-  const url = "https://127.0.0.1:8000";
+  const url = "https://exam2.miantsebastien.com";
 
 
   if (token) {

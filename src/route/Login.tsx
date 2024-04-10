@@ -12,7 +12,7 @@ function Login() {
 
   const handleLogin = async (e: { preventDefault: () => void;  })=> {
     e.preventDefault();
-    let url = "https://127.0.0.1:8000";
+    let url = "https://exam2.miantsebastien.com";
     try {
       const response = await axios.post(url+"/api/login_check", {
         username: username,

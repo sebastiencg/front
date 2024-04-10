@@ -16,7 +16,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const response = await axios.post(" https://127.0.0.1:8000/register", {
+      const response = await axios.post("https://exam2.miantsebastien.com/register", {
         username: username,
         password: password
         ,
